@@ -466,7 +466,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550054402376" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550054581698" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -480,7 +480,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BedroomTest">
+    <configuration name="BedroomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab_Hotel_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BedroomTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BedroomTest.hasRoomNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab_Hotel_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -491,8 +499,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.BedroomTest.hasRoomNumber" />
+      <item itemvalue="JUnit.BedroomTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BedroomTest" />
         <item itemvalue="JUnit.BedroomTest.hasRoomNumber" />
       </list>
     </recent_temporary>

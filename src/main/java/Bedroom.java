@@ -12,6 +12,10 @@ public class Bedroom {
         return this.roomNumber;
     }
 
+    public int getCapacity(){
+        return this.capacity;
+    }
+
 
 
 
