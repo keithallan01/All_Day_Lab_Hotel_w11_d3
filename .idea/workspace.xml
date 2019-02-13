@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e1c6f70-2748-48ad-9037-a751bc672f2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BedroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -29,33 +29,51 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="14" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2616" />
+          <entry key="java" value="3026" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2616" />
+          <entry key="JAVA" value="3026" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BedroomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state relative-caret-position="493">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ConferenceRoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -63,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bedroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="525">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="35" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -379,14 +397,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/DiningRoomTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DiningRoom.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" />
         <option value="$PROJECT_DIR$/src/test/java/GuestTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Guest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hotel.java" />
         <option value="$PROJECT_DIR$/src/test/java/HotelTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BedroomTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bedroom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BedroomTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" />
       </list>
     </option>
   </component>
@@ -448,7 +466,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550058589836" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550061144563" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RunDashboard">
@@ -463,7 +481,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BedroomTest">
+  <component name="RunManager" selected="JUnit.ConferenceRoomTest.canAddGuestToConferenceRoom">
     <configuration name="BedroomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab_Hotel_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -472,21 +490,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConferenceRoomTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConferenceRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab_Hotel_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ConferenceRoomTest" />
-      <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiningRoomTest.hasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConferenceRoomTest.canAddGuestToConferenceRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab_Hotel_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiningRoomTest" />
-      <option name="METHOD_NAME" value="hasCapacity" />
+      <option name="MAIN_CLASS_NAME" value="ConferenceRoomTest" />
+      <option name="METHOD_NAME" value="canAddGuestToConferenceRoom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -510,18 +526,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BedroomTest" />
-      <item itemvalue="JUnit.DiningRoomTest.hasCapacity" />
-      <item itemvalue="JUnit.ConferenceRoomTest.hasName" />
       <item itemvalue="JUnit.GuestTest" />
       <item itemvalue="JUnit.HotelTest" />
+      <item itemvalue="JUnit.ConferenceRoomTest" />
+      <item itemvalue="JUnit.ConferenceRoomTest.canAddGuestToConferenceRoom" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConferenceRoomTest.canAddGuestToConferenceRoom" />
+        <item itemvalue="JUnit.ConferenceRoomTest" />
         <item itemvalue="JUnit.BedroomTest" />
         <item itemvalue="JUnit.HotelTest" />
         <item itemvalue="JUnit.GuestTest" />
-        <item itemvalue="JUnit.ConferenceRoomTest.hasName" />
-        <item itemvalue="JUnit.DiningRoomTest.hasCapacity" />
       </list>
     </recent_temporary>
   </component>
@@ -539,29 +555,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BedroomTest_hasRoomNumber - 2019.02.13 at 10h 40m 06s.xml">
-      <configuration name="BedroomTest.hasRoomNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BedroomTest - 2019.02.13 at 10h 43m 04s.xml">
+    <history-entry file="BedroomTest - 2019.02.13 at 11h 49m 52s.xml">
       <configuration name="BedroomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BedroomTest - 2019.02.13 at 10h 49m 09s.xml">
-      <configuration name="BedroomTest" configurationId="JUnit" />
+    <history-entry file="ConferenceRoomTest - 2019.02.13 at 12h 09m 07s.xml">
+      <configuration name="ConferenceRoomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiningRoomTest_hasCapacity - 2019.02.13 at 10h 58m 59s.xml">
-      <configuration name="DiningRoomTest.hasCapacity" configurationId="JUnit" />
+    <history-entry file="ConferenceRoomTest_canAddGuestToConferenceRoom - 2019.02.13 at 12h 13m 23s.xml">
+      <configuration name="ConferenceRoomTest.canAddGuestToConferenceRoom" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConferenceRoomTest_hasName - 2019.02.13 at 11h 12m 25s.xml">
-      <configuration name="ConferenceRoomTest.hasName" configurationId="JUnit" />
+    <history-entry file="ConferenceRoomTest_canAddGuestToConferenceRoom - 2019.02.13 at 12h 16m 06s.xml">
+      <configuration name="ConferenceRoomTest.canAddGuestToConferenceRoom" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GuestTest - 2019.02.13 at 11h 19m 33s.xml">
-      <configuration name="GuestTest" configurationId="JUnit" />
+    <history-entry file="ConferenceRoomTest_canAddGuestToConferenceRoom - 2019.02.13 at 12h 16m 37s.xml">
+      <configuration name="ConferenceRoomTest.canAddGuestToConferenceRoom" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HotelTest - 2019.02.13 at 11h 23m 41s.xml">
-      <configuration name="HotelTest" configurationId="JUnit" />
+    <history-entry file="ConferenceRoomTest_canAddGuestToConferenceRoom - 2019.02.13 at 12h 16m 56s.xml">
+      <configuration name="ConferenceRoomTest.canAddGuestToConferenceRoom" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BedroomTest - 2019.02.13 at 11h 40m 24s.xml">
-      <configuration name="BedroomTest" configurationId="JUnit" />
+    <history-entry file="ConferenceRoomTest_canAddGuestToConferenceRoom - 2019.02.13 at 12h 17m 11s.xml">
+      <configuration name="ConferenceRoomTest.canAddGuestToConferenceRoom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConferenceRoomTest_canAddGuestToConferenceRoom - 2019.02.13 at 12h 25m 12s.xml">
+      <configuration name="ConferenceRoomTest.canAddGuestToConferenceRoom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConferenceRoomTest_canAddGuestToConferenceRoom - 2019.02.13 at 12h 25m 24s.xml">
+      <configuration name="ConferenceRoomTest.canAddGuestToConferenceRoom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConferenceRoomTest_canAddGuestToConferenceRoom - 2019.02.13 at 12h 27m 25s.xml">
+      <configuration name="ConferenceRoomTest.canAddGuestToConferenceRoom" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -573,7 +595,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958402" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24958402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
@@ -597,6 +619,36 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24958402" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="3" weight="0.32857144" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32857144" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -611,17 +663,6 @@
             <element signature="e#140#141#0" expanded="true" />
             <element signature="e#170#171#0" expanded="true" />
             <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConferenceRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,24 +702,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BedroomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="493">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bedroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="525">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BedroomTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConferenceRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="231">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
         </state>
       </provider>
     </entry>
