@@ -28,7 +28,6 @@ public class ConferenceRoom {
         if (conferenceRoomCount() < this.capacity) {
             this.guests.add(guest);
         }
-
     }
 
     public void checkOutGuest(){

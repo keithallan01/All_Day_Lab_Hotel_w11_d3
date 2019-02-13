@@ -3,6 +3,7 @@ import java.util.ArrayList;
 
 public class Hotel {
 
+    private ArrayList<Guest> guests;
     private ArrayList<Bedroom> bedrooms;
     private ArrayList<ConferenceRoom> conferenceRooms;
     private String name;
@@ -11,6 +12,7 @@ public class Hotel {
         this.name = name;
         this.bedrooms = new ArrayList<>();
         this.conferenceRooms = new ArrayList<>();
+        this.guests = new ArrayList<>();
     }
 
     public String getName(){
@@ -32,5 +34,16 @@ public class Hotel {
     public void addConferenceRoom(ConferenceRoom conferenceRoom){
         this.conferenceRooms.add(conferenceRoom);
     }
+
+
+    public void checkInGuestIntoBedroom(Guest guest, int roomNumber){
+
+        for (Bedroom bedroom : this.bedrooms) {
+            if (roomNumber == bedroom.getRoomNumber()){
+                bedroom.checkInGuest(guest);
+            }
+        }
+    }
+
 
 }
