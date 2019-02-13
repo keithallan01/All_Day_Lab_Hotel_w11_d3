@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+
 public class Bedroom {
 
+    private ArrayList<Guest> guests;
     private int roomNumber;
     private int capacity;
     private String roomType;
@@ -8,6 +11,7 @@ public class Bedroom {
         this.roomNumber = roomNumber;
         this.capacity = capacity;
         this.roomType = roomType;
+        this.guests = new ArrayList<>();
     }
 
     public int getRoomNumber(){
@@ -20,6 +24,10 @@ public class Bedroom {
 
     public String getRoomType(){
         return this.roomType;
+    }
+
+    public int bedroomCount(){
+        return guests.size();
     }
 
 
