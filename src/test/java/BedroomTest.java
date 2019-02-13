@@ -9,6 +9,8 @@ public class BedroomTest {
     Guest guest1;
     Guest guest2;
     Guest guest3;
+    Guest guest4;
+    Guest guest5;
 
 
 
@@ -18,7 +20,8 @@ public class BedroomTest {
         guest1 = new Guest("Will Smith");
         guest2 = new Guest("Holly Willoby");
         guest3 = new Guest("Dom Jolly");
-
+        guest4 = new Guest("Amir Khan");
+        guest5 = new Guest("Connor McGregor");
     }
 
     @Test
@@ -39,6 +42,16 @@ public class BedroomTest {
     @Test
     public void roomStartsEmpty(){
         assertEquals(0, bedroom.bedroomCount());
+    }
+
+    @Test
+    public void canAddGuestToBedroom(){
+        bedroom.addGuest(guest1);
+        bedroom.addGuest(guest2);
+        bedroom.addGuest(guest3);
+        bedroom.addGuest(guest4);
+        bedroom.addGuest(guest5);
+        assertEquals(4, bedroom.bedroomCount());
     }
 
 }
