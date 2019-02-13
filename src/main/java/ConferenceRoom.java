@@ -24,11 +24,15 @@ public class ConferenceRoom {
         return this.guests.size();
     }
 
-    public void addGuest(Guest guest) {
+    public void checkInGuest(Guest guest) {
         if (conferenceRoomCount() < this.capacity) {
             this.guests.add(guest);
         }
 
+    }
+
+    public void checkOutGuest(){
+        this.guests.remove(0);
     }
 
 

@@ -33,28 +33,27 @@ public class DiningRoomTest {
     }
 
     @Test
-    public void canAddGuestToDiningRoom(){
-        diningRoom.addGuest(guest1);
-        diningRoom.addGuest(guest1);
-        diningRoom.addGuest(guest1);
-        diningRoom.addGuest(guest1);
-        diningRoom.addGuest(guest1);
-        diningRoom.addGuest(guest1);
-        diningRoom.addGuest(guest1);
-        diningRoom.addGuest(guest1);
-        diningRoom.addGuest(guest1);
-        diningRoom.addGuest(guest1);
-        diningRoom.addGuest(guest1);
-        diningRoom.addGuest(guest1);
-        diningRoom.addGuest(guest1);
+    public void canCheckInGuestToDiningRoom(){
+        diningRoom.checkInGuest(guest1);
+        diningRoom.checkInGuest(guest1);
+        diningRoom.checkInGuest(guest1);
+        diningRoom.checkInGuest(guest1);
+        diningRoom.checkInGuest(guest1);
+        diningRoom.checkInGuest(guest1);
+        diningRoom.checkInGuest(guest1);
+        diningRoom.checkInGuest(guest1);
+        diningRoom.checkInGuest(guest1);
+        diningRoom.checkInGuest(guest1);
+        diningRoom.checkInGuest(guest1);
+        diningRoom.checkInGuest(guest1);
         assertEquals(10, diningRoom.diningRoomCount());
     }
 
     @Test
-    public void canRemoveGuest(){
-        diningRoom.addGuest(guest1);
+    public void canCheckOutGuest(){
+        diningRoom.checkInGuest(guest1);
         assertEquals(1, diningRoom.diningRoomCount());
-        diningRoom.removeGuest();
+        diningRoom.checkOutGuest();
         assertEquals(0, diningRoom.diningRoomCount());
     }
 

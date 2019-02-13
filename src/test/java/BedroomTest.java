@@ -45,13 +45,22 @@ public class BedroomTest {
     }
 
     @Test
-    public void canAddGuestToBedroom(){
-        bedroom.addGuest(guest1);
-        bedroom.addGuest(guest2);
-        bedroom.addGuest(guest3);
-        bedroom.addGuest(guest4);
-        bedroom.addGuest(guest5);
+    public void canCheckInGuestToBedroom(){
+        bedroom.checkInGuest(guest1);
+        bedroom.checkInGuest(guest2);
+        bedroom.checkInGuest(guest3);
+        bedroom.checkInGuest(guest4);
+        bedroom.checkInGuest(guest5);
         assertEquals(4, bedroom.bedroomCount());
+    }
+
+    @Test
+    public void canCheckOutOfBedroom(){
+        bedroom.checkInGuest(guest1);
+        assertEquals(1, bedroom. bedroomCount());
+        bedroom.checkOutGuest();
+        assertEquals(0, bedroom.bedroomCount());
+
     }
 
 }

@@ -18,13 +18,13 @@ public class DiningRoom {
         return this.guests.size();
     }
 
-    public void addGuest(Guest guest){
+    public void checkInGuest(Guest guest){
         if (diningRoomCount() < this.capacity) {
             this.guests.add(guest);
         }
     }
 
-    public void removeGuest(){
+    public void checkOutGuest(){
         this.guests.remove(0);
     }
 

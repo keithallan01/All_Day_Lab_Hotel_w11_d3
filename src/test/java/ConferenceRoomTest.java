@@ -13,7 +13,7 @@ public class ConferenceRoomTest {
     Guest guest5;
 
     @Before
-    public void before(){
+    public void before() {
         conferenceRoom = new ConferenceRoom("Honeycombe Suite", 4);
         guest1 = new Guest("Will Smith");
         guest2 = new Guest("Holly Willoby");
@@ -23,7 +23,7 @@ public class ConferenceRoomTest {
     }
 
     @Test
-    public void hasName(){
+    public void hasName() {
         assertEquals("Honeycombe Suite", conferenceRoom.getName());
     }
 
@@ -31,20 +31,27 @@ public class ConferenceRoomTest {
     public void hasCapacity() {
         assertEquals(4, conferenceRoom.getCapacity());
     }
+
     @Test
-    public void ConferenceRoomStartsEmpty(){
+    public void ConferenceRoomStartsEmpty() {
         assertEquals(0, conferenceRoom.conferenceRoomCount());
     }
 
     @Test
-    public void canAddGuestToConferenceRoom(){
-        conferenceRoom.addGuest(guest1);
-        conferenceRoom.addGuest(guest2);
-        conferenceRoom.addGuest(guest3);
-        conferenceRoom.addGuest(guest4);
-        conferenceRoom.addGuest(guest5);
+    public void canAddGuestToConferenceRoom() {
+        conferenceRoom.checkInGuest(guest1);
+        conferenceRoom.checkInGuest(guest2);
+        conferenceRoom.checkInGuest(guest3);
+        conferenceRoom.checkInGuest(guest4);
+        conferenceRoom.checkInGuest(guest5);
         assertEquals(4, conferenceRoom.conferenceRoomCount());
     }
 
-
+    @Test
+    public void canRemoveGuest() {
+        conferenceRoom.checkInGuest(guest1);
+        assertEquals(1, conferenceRoom.conferenceRoomCount());
+        conferenceRoom.checkOutGuest();
+        assertEquals(0, conferenceRoom.conferenceRoomCount());
     }
+}

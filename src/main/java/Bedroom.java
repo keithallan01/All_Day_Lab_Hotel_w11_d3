@@ -30,16 +30,15 @@ public class Bedroom {
         return guests.size();
     }
 
-    public void addGuest(Guest guest){
+    public void checkInGuest(Guest guest){
         if (bedroomCount() < this.capacity) {
             this.guests.add(guest);
         }
     }
 
-
-
-
-
+    public void checkOutGuest(){
+        this.guests.remove(0);
+    }
 
 
 
