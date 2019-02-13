@@ -24,5 +24,9 @@ public class DiningRoom {
         }
     }
 
+    public void removeGuest(){
+        this.guests.remove(0);
+    }
+
 
 }

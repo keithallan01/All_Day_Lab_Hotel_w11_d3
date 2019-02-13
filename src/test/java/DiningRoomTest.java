@@ -49,7 +49,13 @@ public class DiningRoomTest {
         diningRoom.addGuest(guest1);
         assertEquals(10, diningRoom.diningRoomCount());
     }
-    
 
+    @Test
+    public void canRemoveGuest(){
+        diningRoom.addGuest(guest1);
+        assertEquals(1, diningRoom.diningRoomCount());
+        diningRoom.removeGuest();
+        assertEquals(0, diningRoom.diningRoomCount());
+    }
 
 }
